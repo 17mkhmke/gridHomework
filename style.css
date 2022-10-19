@@ -1,0 +1,40 @@
+*,
+*::after
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid-container {
+    display: grid;
+    text-align: center;
+    
+}
+.grid-header {
+    background-color: green;
+}
+.grid-aside {
+    background-color:palevioletred;
+   height: 400px;
+   float: left;
+   justify-content: space-between;
+
+}
+.content{
+    background-color: gray;
+    height: 400px;
+    float: right;
+}
+.foot {
+    background-color: green;
+
+}
+.main_aside {
+    display: flex;
+}
+.grid-aside {
+    flex-grow: 1;
+}
+.content {
+    flex-grow: 3;
+}
